@@ -1,6 +1,7 @@
 ﻿using GrosvnerMenu.Service;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,19 @@ namespace GrosvnerMenu.Controller
     }
     public class MenuController : IMenuController
     {
-        public MenuController(IMenuLoader menuLoader)
+        readonly IMenuLoader _menuLoader;
+        readonly IMenuInputReader _menuInputReader;
+
+        public MenuController(IMenuLoader menuLoader,
+                              IMenuInputReader menuInputReader)
+        {
+            _menuLoader = menuLoader;
+            _menuInputReader = menuInputReader;
+
+            Initialize();
+        }
+
+        protected virtual void Initialize()
         {
 
         }
