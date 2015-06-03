@@ -15,7 +15,7 @@ namespace GrosvnerMenu.Service
     {
         public string Read(string input, IMenu menu)
         {
-            throw new NotImplementedException();
+            return "TODO";
         }
     }
 }
