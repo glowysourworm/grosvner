@@ -9,5 +9,4 @@ C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Debug\Microsoft.Practices.Unity.Config
 C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 C:\grosvner\GrosvnerMenu\GrosvnerMenu\obj\Debug\GrosvnerMenu.exe
 C:\grosvner\GrosvnerMenu\GrosvnerMenu\obj\Debug\GrosvnerMenu.pdb
-C:\grosvner\GrosvnerMenu\GrosvnerMenu\obj\Debug\GrosvnerMenu.csprojResolveAssemblyReference.cache
 C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Debug\LINQtoCSV.dll

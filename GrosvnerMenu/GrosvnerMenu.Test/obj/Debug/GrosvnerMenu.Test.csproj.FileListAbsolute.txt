@@ -14,3 +14,5 @@ C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Debug\Microsoft.Practices.Unity.C
 C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\obj\Debug\GrosvnerMenu.Test.csprojResolveAssemblyReference.cache
 C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\obj\Debug\GrosvnerMenu.Test.dll
 C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\obj\Debug\GrosvnerMenu.Test.pdb
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Debug\Newtonsoft.Json.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Debug\Newtonsoft.Json.xml
