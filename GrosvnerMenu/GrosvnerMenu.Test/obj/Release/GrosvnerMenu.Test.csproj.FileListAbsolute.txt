@@ -1,0 +1,16 @@
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\GrosvnerMenu.Test.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\GrosvnerMenu.Test.pdb
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\GrosvnerMenu.exe
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\Moq.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\Newtonsoft.Json.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\LINQtoCSV.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\Microsoft.Practices.Unity.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\GrosvnerMenu.pdb
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\Moq.xml
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\Newtonsoft.Json.xml
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\Microsoft.Practices.Unity.xml
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\obj\Release\GrosvnerMenu.Test.csprojResolveAssemblyReference.cache
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\obj\Release\GrosvnerMenu.Test.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu.Test\obj\Release\GrosvnerMenu.Test.pdb

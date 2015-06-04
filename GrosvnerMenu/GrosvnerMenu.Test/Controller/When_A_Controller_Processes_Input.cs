@@ -2,9 +2,9 @@
 using GrosvnerMenu.Data;
 using GrosvnerMenu.Service;
 using GrosvnerMenu.Test.Service;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Newtonsoft.Json.Linq;
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace GrosvnerMenu.Test.Controller
 {
-    [TestFixture]
+    [TestClass]
     public class When_A_Controller_Processes_Input
     {
         Mock<IMenu> _menu;
@@ -23,7 +23,7 @@ namespace GrosvnerMenu.Test.Controller
         Mock<IMenuSource> _source;
         IEnumerable<KeyValuePair<string, string>> _testData;
 
-        [SetUp]
+        [TestInitialize]
         public void Initialize()
         {
             _menu = new Mock<IMenu>();
@@ -61,17 +61,17 @@ namespace GrosvnerMenu.Test.Controller
             }
         }
 
-        [Test]
+        [TestMethod]
         public void An_Output_Is_Always_Produced()
         {
             var controller = new MenuController(_source.Object, _loader.Object, _reader.Object);
 
-            for (int i=0;i<10000;i++)
+            for (int i=0;i<5;i++)
             {
                 var something = i.GetHashCode().ToString();
                 _reader.Setup(x => x.Read(something, _menu.Object)).Returns("Something");
                 var output = controller.ProcessInput(something);
-                Assert.IsNotNullOrEmpty(output);
+                Assert.IsTrue(!string.IsNullOrEmpty(output));
             }
         }
     }

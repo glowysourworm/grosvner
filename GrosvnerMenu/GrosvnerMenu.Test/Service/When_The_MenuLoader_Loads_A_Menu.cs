@@ -1,21 +1,21 @@
 ﻿using System;
-using NUnit.Framework;
 using Moq;
 using GrosvnerMenu.Data;
 using System.Collections.Generic;
 using GrosvnerMenu.Service;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace GrosvnerMenu.Test.Service
 {
     /// <summary>
     /// Purpose of test fixture is to test the result of loading a menu v.s. the expected result
     /// </summary>
-    [TestFixture]
+    [TestClass]
     public class When_The_MenuLoader_Loads_A_Menu
     {
         Mock<IMenu> _menu;
 
-        [SetUp]
+        [TestInitialize]
         public void Initialize()
         {
             _menu = new Mock<IMenu>();
@@ -35,7 +35,7 @@ namespace GrosvnerMenu.Test.Service
             });
         }
 
-        [Test]
+        [TestMethod]
         public void The_Resulting_Menu_Is_Accurate_For_The_Csv_Loader()
         {
             // load stream by hand for this test since we're not testing IMenuSource

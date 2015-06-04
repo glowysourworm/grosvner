@@ -1,0 +1,13 @@
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\GrosvnerMenu.exe.config
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\GrosvnerMenu.exe
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\GrosvnerMenu.pdb
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\LINQtoCSV.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\Microsoft.Practices.Unity.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\Microsoft.Practices.Unity.xml
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\obj\Release\GrosvnerMenu.exe
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\obj\Release\GrosvnerMenu.pdb
+C:\grosvner\GrosvnerMenu\GrosvnerMenu\obj\Release\GrosvnerMenu.csprojResolveAssemblyReference.cache

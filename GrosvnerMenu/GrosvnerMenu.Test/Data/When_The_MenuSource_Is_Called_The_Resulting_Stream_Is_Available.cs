@@ -1,5 +1,5 @@
 ﻿using GrosvnerMenu.Data;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 
 namespace GrosvnerMenu.Test.Data
 {
-    [TestFixture]
+    [TestClass]
     public class When_The_MenuSource_Is_Called_The_Resulting_Stream_Is_Available
     {
+        [TestMethod]
         public void For_A_Csv_Menu_Source()
         {
             var source = new CsvMenuSource();

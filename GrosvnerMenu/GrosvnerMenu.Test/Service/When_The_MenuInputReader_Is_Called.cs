@@ -1,9 +1,9 @@
 ﻿using GrosvnerMenu.Data;
 using GrosvnerMenu.Service;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,12 +13,13 @@ using System.Threading.Tasks;
 
 namespace GrosvnerMenu.Test.Service
 {
+    [TestClass]
     public class When_The_MenuInputReader_Is_Called
     {
         Mock<IMenu> _menu;
         IEnumerable<KeyValuePair<string, string>> _testData;
 
-        [SetUp]
+        [TestInitialize]
         public void Initialize()
         {
             _menu = new Mock<IMenu>();
@@ -46,7 +47,7 @@ namespace GrosvnerMenu.Test.Service
             }
         }
 
-        [Test]
+        [TestMethod]
         public void The_Correct_Output_Is_Produced()
         {
             var reader = new MenuInputReader();
